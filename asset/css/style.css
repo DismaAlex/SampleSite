@@ -10,7 +10,11 @@ a{
     text-decoration: none;
     color: #C3073F !important;
 }
-.main, .card-group, .sub-main, .trading-view, .testimonal{
+li{
+    list-style: none;
+
+}
+.main, .card-group, .sub-main, .trading-view, .testimonal, .footer{
     margin-top: 80px;
 }
 h1{
@@ -31,9 +35,10 @@ h2{
     
 }
 .card{
-    background-color: #4E4E50 !important;
+    background-color: #C3073F !important;
     height: 400px;
     width: 350px;
+    border-radius: 10px;
 }
 .card img{
     display: flex;
@@ -42,4 +47,10 @@ h2{
 .trading-view{
     padding: 20px;
     background-color: #6f2232;
+}
+.footer-section{
+    margin-top: 50px;
+}
+.progres{
+    margin-top: 50px;
 }
