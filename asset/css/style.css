@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1A1A1D !important;
+    color: #fff !important;
+}
+a{
+    text-decoration: none;
+    color: #C3073F !important;
+}
+.main, .card-group, .sub-main, .trading-view, .testimonal{
+    margin-top: 80px;
+}
+h1{
+    color: #C3073F !important;
+}
+h2{
+    color: #6f2232 !important;
+}
+.btn-create{
+    width: 150px;
+    background-color: #C3073F;
+    
+}
+.btn-create a{
+    color: #1A1A1D !important;
+}
+.card-group{
+    
+}
+.card{
+    background-color: #4E4E50 !important;
+    height: 400px;
+    width: 350px;
+}
+.card img{
+    display: flex;
+    justify-content: center;
+}
+.trading-view{
+    padding: 20px;
+    background-color: #6f2232;
+}
