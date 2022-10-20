@@ -14,7 +14,7 @@ li{
     list-style: none;
 
 }
-.main, .card-group, .sub-main, .trading-view, .testimonal, .footer{
+.main, .card-group, .sub-main, .trading-view, .testimonal, .footer, .table-view{
     margin-top: 80px;
 }
 h1{
@@ -53,4 +53,22 @@ h2{
 }
 .progres{
     margin-top: 50px;
+}
+table{
+    width: 100%;
+}
+table,th,tr{
+    border-bottom: 1px solid #C3073F;
+}
+th{
+    padding: 12px 3px;
+    text-align: center;
+    height: 50px;
+    background-color: #C3073F;
+}
+td{
+    height: 30px;
+}
+tr .c1{
+    background-color: darkcyan;
 }
